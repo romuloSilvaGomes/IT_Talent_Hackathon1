@@ -1,0 +1,8 @@
+services:
+  nc:
+    image: nextcloud:apache
+    ports:
+      - 80:80
+  db:
+    image: postgres:alpine
+    
